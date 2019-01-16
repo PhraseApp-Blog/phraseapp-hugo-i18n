@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+enableInlineShortcodes = true
+
+theme = "aether"
+
+DefaultContentLanguage = "en"
+
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    title = "My New Hugo i18n Site"
+    languageName = "English"
+    weight = 1
+  [languages.gr]
+    title = "Η Νεα μου Ιστιοσελιδα"
+    languageName = "Greek"
+    weight = 2
+
+[params]
+  phraseAppEnabled = true
+  phraseapp_key = "{{__phrase_%s__}}"
+
